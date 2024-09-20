@@ -55,6 +55,12 @@ The message box is very similar to the info box however awaits the user to hit t
 whiptail --title "Example Title" --msgbox "This is an example message box. Press OK to continue." 8 70
 ```
 
+Use other background colors.
+
+```sh
+NEWT_COLORS="root=,color2" whiptail --title "Example Title" --msgbox "This is an example message box. Press OK to continue." 8 70
+```
+
 
 ### Yes/no box
 The yes/no input does what it says on the tin. It displays a prompt with the options of yes or no.
